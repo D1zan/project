@@ -7,30 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<style>
-.game {
-    background-color: white;
-    color:black;
-    }
-
-</style>
-<div class="game">
-    <p>XP: 0</p>
-    <p>Health:100</p>
-    <p>Gold:50</p>
-<style>
-.info {
-    background-color: red;
-    color: white;
-
-}
-</style>
-<div class="info">
-    <p>Monster name:dragon</p>
-    <p>Health:300</p>
-</div>
-<style>
-
-</style>
+    <div id="box">
+        <div id="info">
+            <p class="playerstats">XP: <b id="xp">0</b></p>
+            <p class="playerstats">Health: <b id="health">100</b></p>
+            <p class="playerstats">Gold: <b id="gold">50</b></p>
+        </div>
+        <div class="buttons"> 
+            <button id="attack">Attack</button>
+            <button id="dodge">dodge</button>
+            <button id="run">Run</button>
+        </div>
+        <div id="game">
+            <p>Monster name: <b id="name">dragon</b> Health: <b id="dragonHealth">300</b></p>
+        </div>
+        <div id= "naming">
+            <p>You are fighting a monster</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

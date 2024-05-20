@@ -1,9 +1,53 @@
 style {
     div{
-    width: 300px;
-    margin: 100px;
+    width: 700px;
+    margin: 600px;
+
     }
 }
 body {
-    background-color: rgb(34, 34, 100);
+    background-color: rgb(17, 17, 59);
+    display: flex;
+    justify-content: center;
 }
+
+#game {
+    display:flex;
+    background-color:red;
+    color:white;
+    border-style: solid;
+    border-color:black;
+    padding: 5px;
+    word-spacing: 3px;
+    }
+.buttons {
+    display:flex;
+    border-style: solid;
+    word-spacing: 5px;
+}
+#info {
+    display:flex;
+    background-color:white;
+    color:black;
+    border-style: solid;
+    border-color:black;
+}
+
+#box {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:white;
+    padding: 15px;
+    max-width: 800px;
+    width: 100%;
+}
+#naming {
+    display:flex;
+    background-color: rgb(5, 5, 45);
+    color:aliceblue;
+    border-style: solid;
+    border-color:black;
+}
+.playerstats {
+    padding-right: 7px;
